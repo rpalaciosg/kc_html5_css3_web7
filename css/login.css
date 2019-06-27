@@ -1,44 +1,66 @@
 *, *::before, *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
     }
 
 body {
     margin: 0;
-    font-size: 18px;
-    line-height: 1.5em;  
+    min-height: 100vh;
+
     background: #0c3483;
     background: linear-gradient(to right, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
-    background: -webkit-linear-gradient(to right, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
-    font-family: 'Titillium Web', 'Roboto', sans-serif;
-    height: 100%;
-    width: 100%;
-    color: #ffffff;    
+    background: -webkit-linear-gradient(to right, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);    
 
+    font-family: 'Montserrat','Titillium Web','Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;  
+    color: #ffffff;    
+    
+    min-height: 100vh;
+    width: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    
 }
 
-.login-container {
-
-
-    background-color: #1A1719;
-    max-width: 400px;
-    padding: 20px 40px;    
-    letter-spacing: 1px; 
+h1 {
+    margin: 10px 0;
+    font-size: 30px;
+    text-align: center;
 }
 
-.login-title {
-    font-size: 24px;    
-    margin: 40px;
+p {
+    font-size: 14px;
+    line-height: 21px;
 }
 
 a {
     color: #0EB2F0;
     font-weight: 600;
-    font-size: 12px;
-    display: inline;
+    font-size: 11px;   
+}
+
+.login-container {
+    background-color: rgb(26, 22, 24);
+    border-radius: 3px;
+    
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+
+    color: #b3b8cd;
+    padding-top: 30px;
+    position: relative;
+    width: 400px;
+    max-width: 100%;
+    padding: 20px 40px;    
+}
+
+/* Inputs */
+.container {
+    /* justify-content: space-around; */
+    justify-items: flex-end;
 }
 
 input[type='email'], input[type='password'] {
@@ -47,25 +69,25 @@ input[type='email'], input[type='password'] {
     margin: 5px 0;    
 }
 
-input[type='submit'] {
-    display: block;
+input {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
-    height: 30px;
     margin-top: 10px;
-    background: #2E2D35;
-    border: none;
-    font-weight: bold;
+}
+
+input[type='submit'] {
+    background-color: rgb(55, 54, 65);
+    border: 1px solid rgb(55, 54, 65);
+    color: #b3b8cd;
+    font-weight: 500;
+    height: 30px;
 }  
 
-
-
-input[type='button'] {
-    display: block;
-    width: 100%;   
-    height: 28px;    
-    margin-top: 10px;
-    background: #0F1013;
+input[type='button'] {  
+    background-color: #0F1013;
+    border: 1px solid #0F1013;
     color: #0EB2F0;
-    border: none;   
-    
+    font-weight: 200;
+    font-size: 11px;
+    height: 25px;
 }
