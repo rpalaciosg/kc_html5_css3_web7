@@ -41,7 +41,7 @@ p {
 
 a {
     color: #0EB2F0;
-    font-weight: 600;
+    font-weight: 100;
     font-size: 11px;
 }
 
@@ -91,7 +91,7 @@ input[type='button'] {
     background-color: #0F1013;
     border: 1px solid #0F1013;
     color: #0EB2F0;
-    font-weight: 200;
+    font-weight: 600;
     font-size: 11px;
     height: 25px;
 }
