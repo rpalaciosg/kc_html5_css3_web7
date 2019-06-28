@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #0F1013;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    display: flex;
+}
+
+.logo {
+    color: #ffffff;
+}
+
+.navbar-list {
+    margin: 0;
+    list-style-type: none;
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-list-right {
+    margin: 0;
+    list-style-type: none;            
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-item > a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-item > a:hover {
+    background-color: #373641;
+    
+}
