@@ -1,1 +1,29 @@
-.
+.header {
+    height: 100vh;
+    background-image: url(../img/caratula-header.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header > h1 {
+    font-weight: 100;    
+    margin-left: 55vw;
+    padding-right: .5em;
+}
+
+.header > h1 > span {
+    display: block;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header > .tagline {
+    margin-left: 55vw; 
+    padding-right: .5em;
+}
