@@ -43,12 +43,13 @@
     margin-right: 1em;
 }
 
-.navbar-list-right > .navbar-item > form >.buscar {
+.buscar {
     display: inline-flex;
     align-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
     text-indent: 7px;
+    margin-right: 1em;
 }
 
 .buscar > input {
