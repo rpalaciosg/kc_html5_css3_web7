@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NETBOHX</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Rubik+Mono+One|Titillium+Web&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/header.css">    
+    <link rel="stylesheet" href="css/novedades.css">
 </head>
 <body>
 <nav class="navbar">
@@ -26,28 +28,76 @@
             </a>
         </li>        
         <li class="navbar-item">
-            <a href="#">
-                <i class="fa fa-fw fa-sign-out"></i>
+            <a href="#">        
+                <i class="fas fa-sign-out-alt"></i>
+
             </a>
         </li>                  
     </ul>    
 </nav>
 
 <header class="header">
-    <h1>Disfruta de tus series favoritas en <span>NETBOHX</span></h1>
-    <p class="tagline">Entérate de la nueva temporada de <strong>Mr. Robot</strong>, descubre los nuevos personajes. Y sigue la F-society.</p>
+    <div class="title">
+        <h1>Mr. Robot</h1>
+        <span class="badge-tipo">SERIE</span>
+    </div>
+    
+    <p class="info">        
+        <span class="time">1h 30m</span>
+        <span class="date">2019</span>
+    </p>
+    <p></p>
+    <p class="tagline">Sigue a un misterioso anarquista que recluta a un joven programador de computadoras (Malek) que sufre de un trastorno antisocial y se conecta a la gente pirateándolos.</p>
+
+    <a href="#" class="big-button-play"><i class="fas fa-play"> Ver Trailer</i></a>
 </header>
 
-<section class="novedades" id="novedades">
-    <h3>Novedades</h3>
-</section>
-
-<section class="series" id="series">
-    <h3>Series</h3>
-</section>
+<main>
+    <section class="novedades" id="novedades">
+        <div class="flex-head-section">
+            <h1>Novedades</h1>
+            <button>Ver más series</button>
+        </div>        
+        <div class="flex-card-container">
+                <article class="flex-card">
+                        <img src="img/mr-robot-poster.jpg" alt="">
+                        <h2>Mr Robot</h2>
+                        <p></p>
+                    </article>
+                <article class="flex-card">
+                    <img src="img/the-big-bang-theory-poster.jpg" alt="">
+                    <h2>The Big Bang Theory</h2>
+                    <p></p>
+                </article>
+                <article class="flex-card">
+                    <img src="img/silicon-valley-poster.jpg" alt="">
+                    <h2>Silicon Valley</h2>
+                    <p></p>
+                </article>
+                <article class="flex-card">
+                    <img src="img/scorpion-poster.jpg" alt="">
+                    <h2>Scorpion</h2>
+                    <p></p>
+                </article>
+                <article class="flex-card">
+                    <img src="img/the-walking-dead-poster-200x300.jpg" alt="">
+                    <h2>The Walking Dead</h2>
+                    <p></p>
+                </article>                
+        </div>
+        <aside>
+            <!-- <h2>Mira la nueva y todas las temporadas de GAME of Thrones</h2> -->
+            <img src="img/aside-got.png" alt="">
+        </aside>
+    </section>
     
-<section class="peliculas" id="peliculas">
-        <h3>Películas</h3>
-</section>
+    <section class="series" id="series">
+        <h1>Series Online</h1>
+    </section>
+        
+    <section class="peliculas" id="peliculas">
+        <h1>Películas Online</h1>
+    </section>
+</main>
 </body>
 </html>
