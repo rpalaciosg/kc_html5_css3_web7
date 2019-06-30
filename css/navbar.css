@@ -1,5 +1,7 @@
 .navbar {
-    background-color: #0F1013;
+    /* background-color: #081017; */
+    background-color: #141a32;
+
     width: 100%;
     position: fixed;
     top: 0;
@@ -48,6 +50,6 @@
 }
 
 .navbar-item > a:hover {
-    background-color: #373641;
+    background-color: #4484C1;
     
 }
