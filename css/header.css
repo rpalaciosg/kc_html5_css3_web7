@@ -67,11 +67,10 @@
     margin-bottom: 2rem;
 }
 
-a[class='button big'] {
+.header > a[class='button big'] {
     margin-left: 10vw; 
-    padding: .5rem 2rem;    
 }
 
-a[class='button big']:hover {
+.header > a[class='button big']:hover {
     background-color: rgb(65, 149, 228);
 }

@@ -1,0 +1,26 @@
+.flex-head-section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.flex-head-section > .button:hover {
+    background-color: rgb(65, 149, 228);
+}
+
+.flex-card-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+
+ .flex-card {
+     flex-basis: 10%;
+     margin-bottom: 2rem;
+ }
+
+ .flex-card img {
+     width: 100%;
+ }
