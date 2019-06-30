@@ -1,0 +1,17 @@
+:root {
+    --max-width: 1000px;
+}
+
+body {
+    /* background-color: #0D1C26; */
+    /* background-color: #011627; */
+    background-color: #080f28;
+    color: #FFFFFF;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+/*just color Picker*/
