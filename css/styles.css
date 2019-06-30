@@ -13,6 +13,13 @@ body {
 main {
     max-width: var(--max-width);
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section {
+    padding: 3rem 1rem;
 }
 
 .button {

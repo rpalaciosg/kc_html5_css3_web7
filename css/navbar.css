@@ -37,9 +37,31 @@
     list-style-type: none;            
     
 
-    display: flex;
+    display: inline-flex;
     justify-content: flex-end;
+    align-items: center;
     margin-right: 1em;
+}
+
+.navbar-list-right > .navbar-item > form >.buscar {
+    display: inline-flex;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-indent: 7px;
+}
+
+.buscar > input {
+    background-color: #141a32;
+    border: solid 1px #fff;
+    border-radius: 20px;
+    height: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 10px;
+}
+
+.buscar > input:hover {
+    background-color: #fff;
 }
 
 .navbar-item > a {
