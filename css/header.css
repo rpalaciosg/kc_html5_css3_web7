@@ -67,21 +67,11 @@
     margin-bottom: 2rem;
 }
 
-.header > .big-button-play {
-    max-width: 200px;
-
-    text-align: center;
-    line-height: 2rem;
-    font-size: 1.125rem;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 900;
-
-    background-color: #4484C1;
+a[class='button big'] {
     margin-left: 10vw; 
-    padding: .5rem 2rem;
-    
-    border: 0;
-    border-radius: 3rem;
-    
+    padding: .5rem 2rem;    
+}
+
+a[class='button big']:hover {
+    background-color: rgb(65, 149, 228);
 }
