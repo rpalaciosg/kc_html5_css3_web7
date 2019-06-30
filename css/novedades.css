@@ -4,7 +4,7 @@
     height: 48vh;
 }
 
-.flex-head-section {
+.head-novedades {
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
@@ -13,29 +13,29 @@
     margin-bottom: .5rem;
 }
 
-.flex-head-section > .button:hover {
+.head-novedades > .button:hover {
     background-color: rgb(65, 149, 228);
 }
 
-.flex-card-container {
+.card-container-novedades {
      display: flex;
      flex-wrap: wrap;
      justify-content: space-evenly;
      align-content: space-evenly;
  }
 
- .flex-card {
+ .card-novedad {
      min-height: 5px;
      flex-basis: 10%;
  }
 
- .flex-card > a {
+ .card-novedad > a {
      text-decoration: none;
      color: #fff;
  }
 
 
- .flex-card > a > img {
+ .card-novedad > a > img {
      width: 160px;
      height: 190px;
      object-fit: cover;
@@ -46,10 +46,9 @@
      -moz-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
      vertical-align: middle;
      max-width: 100%;
-     /* max-height: 100%; */
  }
 
- .flex-card > a > h2 {
+ .card-novedad > a > h2 {
      font-size: .975rem;
      text-align: center;
      line-height: 1.5;
@@ -58,7 +57,7 @@
      font-weight: 400;
  }
 
- .flex-card > a > p {
+ .card-novedad > a > p {
      text-align: center;
      font-size: .75rem;
      color: #8da0bc;
@@ -66,7 +65,7 @@
      margin-top: 0;
  }
 
- .novedades > .flex-card-container > aside {
+ .novedades > .card-container-novedades > aside {
      align-self: flex-end;
      margin-right: -3rem;
  }
