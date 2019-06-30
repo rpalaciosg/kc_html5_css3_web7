@@ -1,5 +1,11 @@
+.novedades {
+    display: flex;
+    flex-direction: column;
+    height: 48vh;
+}
 .flex-head-section {
     display: flex;
+    width: 100%;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
@@ -17,10 +23,43 @@
  }
 
  .flex-card {
+     min-height: 5px;
      flex-basis: 10%;
-     margin-bottom: 2rem;
  }
 
- .flex-card img {
-     width: 100%;
+ .flex-card > a {
+     text-decoration: none;
+     color: #fff;
+ }
+
+
+ .flex-card > a > img {
+     width: 160px;
+     height: 190px;
+     object-fit: cover;
+     margin-bottom: 0;
+     border-radius: 5px;
+     box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+     -moz-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+     vertical-align: middle;
+     max-width: 100%;
+     /* max-height: 100%; */
+ }
+
+ .flex-card > a > h2 {
+     font-size: .975rem;
+     text-align: center;
+     line-height: 1.5;
+     margin-bottom: 0;
+     padding-top: 0;
+     font-weight: 400;
+ }
+
+ .flex-card > a > p {
+     text-align: center;
+     font-size: .75rem;
+     color: #8da0bc;
+     margin-bottom: 2;
+     margin-top: 0;
  }
