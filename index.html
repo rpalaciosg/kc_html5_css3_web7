@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<i lang="en">
-
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +8,13 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Rubik+Mono+One|Titillium+Web&display=swap"
             rel="stylesheet">
         <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/novedades.css">
         <link rel="stylesheet" href="css/series.css">
+        <link rel="stylesheet" href="css/peliculas.css">
     </head>
 
     <body>
@@ -60,114 +60,121 @@
                 que sufre de un trastorno antisocial y se conecta a la gente pirateándolos.</p>
 
             <a href="#" class="button big"><i class="fas fa-play"> Ver Trailer</i></a>
-        </header>
+        </header>        
 
-        <main>
-            <section class="novedades" id="novedades">
-                <div class="head-novedades">
-                    <h1>Novedades</h1>
-                    <a href="" class="button sm"><i class="fas fa-plus"> </i> Ver más series</a>
-                </div>
+        <section class="novedades" id="novedades">
+            <header class="head-novedades">
+                <h2>Novedades</h2>
+                <a href="" class="button sm"><i class="fas fa-plus"> </i> Ver más series</a>
+            </header>
+            <div class="container-novedades">
                 <div class="card-container-novedades">
-                    <article class="card-novedad">
-                        <a href="">
-                            <img src="img/series/breaking-bad-poster.jpg" alt="">
-                            <h2>Breaking Bad</h2>
-                            <p>2000</p>
-                        </a>
-                    </article>
-
-                    <article class="card-novedad">
-                        <a href="">
-                            <img src="img/series/the-big-bang-theory-poster.jpg" alt="">
-                            <h2>The Big Bang Theory</h2>
-                            <p>2001</p>
-                        </a>
-                    </article>
-
-                    <article class="card-novedad">
-                        <a href="">
-                            <img src="img/series/silicon-valley-poster.jpg" alt="">
-                            <h2>Silicon Valley</h2>
-                            <p>2002</p>
-                        </a>
-                    </article>
-
-                    <article class="card-novedad">
-                        <a href="">
-                            <img src="img/series/scorpion-poster.jpg" alt="">
-                            <h2>Scorpion</h2>
-                            <p>2003</p>
-                        </a>
-                    </article>
+                        <article class="card-novedad">
+                            <a href="">
+                                <img src="img/series/breaking-bad-poster.jpg" alt="">
+                                <h2>Breaking Bad</h2>
+                                <p>2000</p>
+                            </a>
+                        </article>
+        
+                            <article class="card-novedad">
+                                <a href="">
+                                    <img src="img/series/the-big-bang-theory-poster.jpg" alt="">
+                                    <h2>The Big Bang Theory</h2>
+                                    <p>2001</p>
+                                </a>
+                            </article>
+        
+                            <article class="card-novedad">
+                                <a href="">
+                                    <img src="img/series/silicon-valley-poster.jpg" alt="">
+                                    <h2>Silicon Valley</h2>
+                                    <p>2002</p>
+                                </a>
+                            </article>
+        
+                            <article class="card-novedad">
+                                <a href="">
+                                    <img src="img/series/scorpion-poster.jpg" alt="">
+                                    <h2>Scorpion</h2>
+                                    <p>2003</p>
+                                </a>
+                            </article>
+                </div> 
+                <div>
                     <aside>
                         <a href="">
-                            <img src="img/aside-got.png" alt="">
-                        </a>
-                    </aside>
+                        <img src="img/aside-got.png" alt="">
+                         </a>
+                    </aside>                     
                 </div>
-            </section>
+                
+            </div>              
+        </section>
 
+        <main>
             <section class="series" id="series">
-                <h1>Series</h1>
-                <div class="container-cards">
-                    <article class="card">
+                <header class="head-series">
+                        <h1>Series</h1>
+                </header>                
+                <div class="container-series">
+                    <article class="card-serie">
                         <a href="">
                             <img src="img/series/breaking-bad-poster.jpg" alt="">
                             <h2>Breaking Bad</h2>
                             <p>2000</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-serie">
                         <a href="">
                             <img src="img/series/juego-de-tronos-poster.jpeg" alt="">
                             <h2>Juego de Tronos</h2>
                             <p>2000</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-serie">
                         <a href="">
                             <img src="img/series/mr-robot-poster.jpg" alt="">
                             <h2>Mr. Robot</h2>
                             <p>2000</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-serie">
                         <a href="">
                             <img src="img/series/scorpion-poster.jpg" alt="">
                             <h2>Scorpion</h2>
                             <p>2000</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-serie">
                         <a href="">
                             <img src="img/series/silicon-valley-poster.jpg" alt="">
                             <h2>Silicon Valley</h2>
                             <p>2000</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-serie">
                         <a href="">
                             <img src="img/series/sobrenatural-poster.jpg" alt="">
                             <h2>Sobrenatural</h2>
                             <p>2000</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-serie">
                         <a href="">
                             <img src="img/series/the-big-bang-theory-poster.jpg" alt="">
                             <h2>The Big Bang Theory</h2>
                             <p>2000</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-serie">
                         <a href="">
                             <img src="img/series/the-good-doctor-poster.jpg" alt="">
                             <h2>The Good Doctor</h2>
                             <p>2000</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-serie">
                         <a href="">
                             <img src="img/series/the-walking-dead-poster.jpeg" alt="">
                             <h2>The Walking Dead</h2>
@@ -179,65 +186,67 @@
             </section>
 
             <section class="peliculas" id="peliculas">
-                <h1>Películas</h1>
-                <div class="container-cards">
-                    <article class="card">
+                <header class="head-peliculas">
+                    <h1>Películas</h1>
+                </header>
+                <div class="container-peliculas">
+                    <article class="card-peli">
                         <a href="">
                             <img src="img/peliculas/avengers-end-game-poster.jpg" alt="">
                             <h2>Avengers: End Game</h2>
                             <p>2019</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-peli">
                         <a href="">
                             <img src="img/peliculas/descifrando-enigma-poster.jpg" alt="">
                             <h2>Descifrando Enigma</h2>
                             <p>2019</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-peli">
                         <a href="">
                             <img src="img/peliculas/her-poster.jpg" alt="">
                             <h2>Her</h2>
                             <p>2019</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-peli">
                         <a href="">
                             <img src="img/peliculas/john-wick-poster-200x300.jpg" alt="">
                             <h2>John Wick</h2>
                             <p>2019</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-peli">
                         <a href="">
                             <img src="img/peliculas/la-red-social-poster.jpg" alt="">
                             <h2>La red social</h2>
                             <p>2019</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-peli">
                         <a href="">
                             <img src="img/peliculas/la-teoria-del-todo-poster.jpg" alt="">
                             <h2>La teoría del todo</h2>
                             <p>2019</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-peli">
                         <a href="">
                             <img src="img/peliculas/los-becarios-poster.jpg" alt="">
                             <h2>Los becarios</h2>
                             <p>2019</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-peli">
                         <a href="">
                             <img src="img/peliculas/matrix-poster.jpg" alt="">
                             <h2>John Wick</h2>
                             <p>2019</p>
                         </a>
                     </article>
-                    <article class="card">
+                    <article class="card-peli">
                         <a href="">
                             <img src="img/peliculas/todos-estamos-vigilados-poster.jpg" alt="">
                             <h2>John Wick</h2>
@@ -249,4 +258,4 @@
         </main>
     </body>
 
-</i>
+</html>
