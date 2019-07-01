@@ -18,7 +18,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
 .card-serie {
@@ -27,7 +26,6 @@
     flex-shrink: 1;
     flex-basis: auto; 
     justify-content: space-evenly;
-    /* flex: 1 1 30%; */
 }
 
 .card-serie > a {
@@ -40,8 +38,7 @@
 }
 
 .card-serie > a > img {
-    /* width: 280px;
-    height: 360px;     */
+
 }
 
 .card-serie > a > h2 {
