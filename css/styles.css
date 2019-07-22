@@ -5,7 +5,7 @@
 body {
     background-color: #080f28;
     color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', 'Montserrat', 'Roboto', sans-serif;
 }
 
 main {
@@ -13,7 +13,6 @@ main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    
 }
 
 /* estilo imagen en cuadricula */
