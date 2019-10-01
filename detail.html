@@ -1,68 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>NETBOHX</title>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Rubik+Mono+One|Titillium+Web&display=swap"
-            rel="stylesheet">
-        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/navbar.css">
-        <link rel="stylesheet" href="css/dt-header.css">
-    </head>
 
-    <body>
-        <nav class="navbar">
-            <div class="logo">NETBOHX</div>
-            <ul class="navbar-list">
-                <li class="navbar-item"><a href="#novedades">Novedades</a></li>
-                <li class="navbar-item"><a href="#series">Series</a></li>
-                <li class="navbar-item"><a href="#peliculas">Películas</a></li>
-            </ul>
-            <ul class="navbar-list-right">
-                <li class="navbar-item">
-                    <form action="#" id="form-buscar">
-                        <div class="buscar">
-                            <input type="text" placeholder="Buscar..">
-                            <i class="fa fa-fw fa-search"></i>
-                        </div>
-                    </form>
-                    <!-- </div> -->
-                </li>
-                <li class="navbar-item">
-                    <a href="#">
-                        <i class="fas fa-sign-out-alt"></i>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NETBOHX - Detail</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Rubik+Mono+One|Titillium+Web&display=swap"
+        rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/dt-header.css">
+    <link rel="stylesheet" href="css/dt-trailers.css">
+    <link rel="stylesheet" href="css/dt-relacionadas.css">
+</head>
 
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <header>
-                <div class="detail">
-                        <div class="poster">
-                            <img src="img/series/silicon-valley-poster.jpg" alt="">
-                        </div>
-                        <div class="container-info">
-                            <header class="title">
-                                    <h1>Mr. Robot</h1>
-                                    <span >SERIE</span>
-                            </header>
-                            <p class="info">
-                                <span class="">1h 30m</span>
-                                <span class="">2019</span>
-                            </p>
-                            <p class="">Sigue a un misterioso anarquista que recluta a un joven programador de computadoras
-                                    (Malek)
-                                    que sufre de un trastorno antisocial y se conecta a la gente pirateándolos.
-                            </p>
-                            <a href="#" class=""><i class="fas fa-play"> Ver Trailer</i></a>
-                        </div>
-                    </div>        
+<body>
+    <nav class="navbar">
+        <div class="logo">NETBOHX</div>
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="#novedades">Novedades</a></li>
+            <li class="navbar-item"><a href="#series">Series</a></li>
+            <li class="navbar-item"><a href="#peliculas">Películas</a></li>
+        </ul>
+        <ul class="navbar-list-right">
+            <li class="navbar-item">
+                <form action="#" id="form-buscar">
+                    <div class="buscar">
+                        <input type="text" placeholder="Buscar..">
+                        <i class="fa fa-fw fa-search"></i>
+                    </div>
+                </form>
+                <!-- </div> -->
+            </li>
+            <li class="navbar-item">
+                <a href="login.html">
+                    <i class="fas fa-sign-out-alt"></i>
+
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <div class="background-image"></div>
+        <main class="main">
+            <header class="movie-header">
+                <div class="poster">
+                    <img src="img/series/silicon-valley-poster.jpg" alt="Poster Silicon Valley">
+                </div>
+                <div class="container-info">
+                    <header class="title">
+                        <h1>Silicon Valley</h1>
+                        <span class="badge-tipo">SERIE</span>
+                    </header>
+                    <p class="info">
+                        <span class="time">1h 30m</span>
+                        <span class="date">2019</span>
+                    </p>
+                    <p class="tagline">En la fiebre del oro de alta tecnología moderna de Silicon Valley, las personas
+                        más calificadas para tener éxito son los menos capaces de manejar el éxito. Parcialmente
+                        inspirada en las propias experiencias de Mike Judge como ingeniero de Silicon Valley a finales
+                        de los años 80, Silicon Valley es una comedia de situación estadounidense que se centra en torno
+                        a seis programadores que están viviendo juntos y tratando de hacer algo grande en el Silicon
+                        Valley.</p>
+                    <a href="#trailers" class="button big"><i class="fas fa-play"> Ver Trailer</i></a>
+                </div>
+            </header>
+        </main>
+    </header>
+
+    <section class="trailers" id="trailers">
+        <header class="head-trailer">
+            <h2>Trailers</h2>
         </header>
-        
-    </body>
+        <div class="video-content">
+            <video class="video-item" poster="/img/series/silicon-valley-caratula-trailer.jpg" controls>
+                <source src="video/hanging-bridge.mp4" type="video/mp4">
+            </video>
+            <iframe class="video-item" src="https://www.youtube.com/embed/dGs_0b2SeX0"
+                title="Trailer de serie Silicon Valley" frameborder="0" allowfullscreen>
+                <p>Tu navegador no soporta iframes</p>
+            </iframe>
+        </div>
+
+    </section>
+
+    <section class="relacionadas" id="relacionadas">
+        <header class="head-relacionadas">
+            </h2><h2>Series Relacionadas</h2>
+        </header>        
+        <div class="container-relacionadas">
+            <article class="card-relacionada">
+                <a href="">
+                    <img src="img/series/the-big-bang-theory-poster.jpg" alt="">
+                    <h2>The Big Bang Theory</h2>
+                    <p>2004</p>
+                </a>
+            </article>
+
+            <article class="card-relacionada">
+                <a href="">
+                    <img src="img/series/scorpion-poster.jpg" alt="">
+                    <h2>Scorpion</h2>
+                    <p>2005</p>
+                </a>
+            </article>
+
+            <article class="card-relacionada">
+                <a href="">
+                    <img src="img/series/the-good-doctor-poster.jpg" alt="">
+                    <h2>The Good Doctor</h2>
+                    <p>2018</p>
+                </a>
+            </article>
+        </div>
+    </section>
+
+
+
+
+</body>
 
 </html>
