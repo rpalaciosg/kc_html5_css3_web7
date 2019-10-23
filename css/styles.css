@@ -58,3 +58,31 @@ main section article a img {
     width: auto;
 }
 
+
+/*-----------------------------------------------------------*/
+/*-                      Parte de secciones                 -*/
+/*-----------------------------------------------------------*/
+/* Unificar las sections de:
+    - .series en series.css
+    - .peliculas en peliculas.css    
+*/
+.section-content {
+    padding: 1rem 1rem;
+    margin-top: 2rem;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+/* Unificar por uso en las siguientes clases:
+    - .container-novedades en novedades.css
+    - .container-series en series.css
+    - .container-peliculas en peliculas.css
+    - .container-relacionadas en dt-relacionadas.css
+*/
+.container {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+}
