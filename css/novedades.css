@@ -23,7 +23,8 @@
     background-color: rgb(65, 149, 228);    
 }
 
-.container-novedades {
+/* Se unifica en .container en styles.css*/
+.container-novedades { 
      display: flex;
      flex-wrap: wrap;     
      justify-content: space-around;
@@ -37,45 +38,6 @@
  aside {
      align-content: center;
      width: 25%;
- }
-
-
- .card-novedad > a {
-     display: flex;
-     flex-direction: column;
-     text-decoration: none;
-     color: #fff;
- }
-
-
- .card-novedad > a > img {
-     width: 150px;
-     height: 180px;
-     object-fit: cover;
-     margin-bottom: 0;
-     border-radius: 5px;
-     box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-     -webkit-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-     -moz-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-     vertical-align: middle;
-     max-width: 100%;
- }
-
- .card-novedad > a > h2 {
-     font-size: .975rem;
-     text-align: center;
-     line-height: 1.5;
-     margin-bottom: 0;
-     padding-top: 0;
-     font-weight: 400;
- }
-
- .card-novedad > a > p {
-     text-align: center;
-     font-size: .75rem;
-     color: #8da0bc;
-     margin-bottom: 2;
-     margin-top: 0;
  }
 
  .novedades > .container-novedades > aside {

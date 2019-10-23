@@ -21,38 +21,3 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-.card-peli {
-    display: flex;
-    flex: 1 1 auto;    
-    justify-content: space-evenly;
-}
-
-.card-peli > a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
-}
-
-.card-peli > a > img {    
-    width: 250px;
-    height: 330px;    
-}
-
-.card-peli > a > h2 {
-    font-size: 1.3rem;
-    line-height: 1.5;
-    font-weight: 600;
-    margin-bottom: 0;
-}
-
-
-.card-peli > a > p {
-    text-align: center;
-    font-size: .95rem;
-    color: #8da0bc;
-    margin-bottom: 2;
-    margin-top: 0;
-}
