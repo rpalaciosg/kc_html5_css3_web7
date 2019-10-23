@@ -1,0 +1,72 @@
+.card {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto; 
+    justify-content: space-evenly;
+}
+
+.card > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* estilo de imagen */
+.card a img {
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.card.sm > a > img {
+    width: 150px;
+    height: 180px; 
+}
+
+.card.md > a > img {    
+    width: 240px;
+    height: 320px;    
+}
+
+.card.lg > a > img {
+    width: 300px;
+    height: 380px; 
+}
+
+.card a img{
+    object-fit: inherit;
+    margin-bottom: 0;
+}
+
+/*sirve para series y peliculas*/
+.card > a > h2 {
+    font-size: 1.3rem;    
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding-top: 0;    
+}
+
+.card.sm > a > h2 {
+     font-size: .975rem;     
+     font-weight: 400;
+}
+
+/*sirve para series y peliculas*/
+.card > a > p {
+    text-align: center;
+    color: #8da0bc;
+    margin-top: 0;
+    margin-bottom: 2;
+    font-size: .95rem;
+}
+
+.card.sm > a > p {    
+    font-size: .75rem;    
+ }

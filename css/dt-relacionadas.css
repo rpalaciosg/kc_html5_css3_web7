@@ -16,6 +16,7 @@
     margin: 3em 3em 2em 3em;
 }
 
+/* Se unifica en .container en styles.css*/
 .container-relacionadas {
     display: flex;
     flex-wrap: wrap;
