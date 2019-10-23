@@ -1,0 +1,28 @@
+/* clases traidas de styles.css*/
+.button {
+    border: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4484C1;
+}
+
+.button.big {
+    max-width: 200px;
+    font-size: 1.125rem;
+    padding: .5rem 2rem;
+    font-weight: 900;
+}
+
+.button.sm {
+    height: 2rem;
+    padding: .1rem 2rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: auto;
+}
